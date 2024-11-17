@@ -1,0 +1,15 @@
+[package]
+name = "p2p_lending_for_small_buisnesses"
+version = "1.0.0"
+authors = []
+
+[addresses]
+P2pLendingForSmallBuisness = "0x58d7dc84df94821e3de87e8c5b23080ead65775a85eeb36b748112c242e83359"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
